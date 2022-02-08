@@ -1,10 +1,9 @@
 .portfolio {
   position: sticky;
   height:2930px;
-  width: 1460px;
+  width: 1440px;
   background-image: url("img/portfolio.svg");
-  
-}
+  }
 
 /*Lista desordnado*/
 ul.horizontal{
@@ -18,22 +17,13 @@ ul.horizontal li{
     padding:0 10px;
     }
 
-/* Encabezado */
-.Encabezado
-{
-    position: absolute;
-    width: 1440px;
-    height: 100px;
-    left: 2px;
-    top: -17px;
-}
 
 /* Div Encabezado */
-.Div_Encabezado{
+.Encabezado{
     position: absolute;
     width: 1440px;
     height: 70px;
-    left: 2px;
+    left: 0px;
     top: 0px;
   
     background: #C4C4C4;
@@ -84,8 +74,6 @@ ul.horizontal li{
     font-weight: normal;
     font-size: 18px;
     line-height: 31px;
-    /* identical to box height */
-    
     color: #FFFFFF;
 }
 
@@ -105,7 +93,6 @@ ul.horizontal li{
     height: 50px;
     left: -90px;
     top: -5px;
-    
     background: #C4C4C4;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -113,20 +100,16 @@ ul.horizontal li{
 
 /* Registrarse */
 .txt_registro{
-
     position: absolute;
     width: 93px;
     height: 31px;
     left: 15px; /*1165*/
     top: 10px; /*22*/
-    
     font-family: 'Taviraj';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 31px;
-    /* identical to box height */
-    
     color: #FFFFFF;
  }
 
@@ -147,12 +130,10 @@ ul.horizontal li{
     height: 100px;
     left: 17px;
     top: -17px;
-   
 }
 
 /* #YoProgramo */
 .Txt_YoProgramo{
-
     position: absolute;
     width: 123px;
     height: 25px;
@@ -164,8 +145,6 @@ ul.horizontal li{
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
-    
     color: #FFFFFF;
 }
 
@@ -174,7 +153,7 @@ ul.horizontal li{
     position: absolute;
     width: 1444px;
     height: 854px;
-    left: 5px;
+    left: 0px;
     top: 0px; 
 }
 
@@ -192,19 +171,12 @@ ul.horizontal li{
     width: 1440px;
 }
 /* Seccion 1 */
-.overlap-fondo{
-    background-image: url(img/header.jpg);
-    background-size: 100% 100%;
-    height: 600px;
-    position: relative;
-    top: 1px;
-}
 #Seccion1{
     position: absolute;
-    width: 1439px;
-    height: 715px;
-    left: 5px;
-    top: 0px;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    top: 70px;
 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.6);
@@ -212,35 +184,39 @@ ul.horizontal li{
     border-radius: 0px;
 }
 
+/* Acerca de */
+.acerca-de {
+  position: absolute;
+  width: 1440px;
+  height: 325px;
+}
+
+#container-header{
+  position: relative;
+  width: 1440px;
+  height: 715px;
+  }
+
 /* imagen header */
-#img_header{
+.img-header{
     position: absolute;
     width: 1440px;
     height: 600px;
     left: 0px;
     top:  1px;
-
-   /* background: url(img/header.jpg);*/
+    align-content: center;
     background-blend-mode: multiply;
 }
 
 /* fondo header */
-#fondo_header
-{   position: relative;
+.fondo-header
+{   position: absolute;
     width: 1440px;
     height: 600px;
     left: 0px;
     top: 1px;
-    background: linear-gradient(97.99deg, rgba(255, 92, 92, 0.8) 3.64%, rgba(14, 17, 88, 0.8) 108.12%);
+    linear-gradient(97.99deg, rgba(203, 21, 21, 0.45) 3.64%, rgba(14, 17, 88, 0.8) 108.12%);
 }
-
-.fondo-header {
-    height: 600px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1440px;
-  }
 
 /* Menu1 */
 .menu1 {
@@ -256,7 +232,7 @@ ul.horizontal li{
   width: 325px;
   height: 38px;
   left: 800px;
-  top: 80px;
+  top: 20px;
 }
 
 .trabajos {
@@ -355,15 +331,6 @@ ul.horizontal li{
     border-radius: 10px;
   }
   
-/* Acerca de */
-.acerca-de {
-    position: absolute;
-    width: 1444px;
-    height: 325px;
-    left: 0px;
-    top: 20px;
-  }
-
 /* Foto perfil */
 .foto-perfil {
     position: absolute;
@@ -391,9 +358,9 @@ ul.horizontal li{
 .seccion2{
     position: absolute;
     width: 1440px;
-    height: 135px;
-    left: 5px;
-    top: 718px;
+    height: 150px;
+    left: 0px;
+    top: 770px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.6);
     box-sizing: border-box;
@@ -443,7 +410,7 @@ ul.horizontal li{
     width: 140px;
     height: 38px;
     left: 37px;
-    top: -290px;    
+    top: -80px;    
 }
 
 /* Boton */
@@ -451,8 +418,6 @@ ul.horizontal li{
     position: absolute;
     width: 140px;
     height: 38px;
-    left: 37px;
-    top: 215px;
     
     background: linear-gradient(180deg, #538EDD 0%, #041935 100%);
     border: 1px solid #FAFBFF;
@@ -495,8 +460,8 @@ ul.horizontal li{
     position: absolute;
     width: 1440px;
     height: 1000px;
-    left: 5px;
-    top: 858px;
+    left: 0px;
+    top: 920px;
     
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.6);
@@ -701,8 +666,8 @@ ul.horizontal li{
     top: -20px;
     width: 500px;
   }
-/*Botones edicion*/
 
+  /*Botones edicion*/
  .botones-edit {
     align-items: flex-start;
     display: flex;
@@ -829,7 +794,7 @@ ul.horizontal li{
   position: absolute;
   width: 178px;
   left: 633px;
-  top: 1870px;
+  top: 1920px;
 }
 
 #font-proy{
@@ -855,7 +820,7 @@ ul.horizontal li{
   position: absolute;
   width: 988px;
   left: 200px;
-  top: 1940px;
+  top: 1960px;
 }
 
 .trabajo-1 {
@@ -967,7 +932,7 @@ ul.horizontal li{
   height: 500px;
   margin-left: 2px;
   margin-top: 61px;
-  min-width: 1442px;
+  min-width: 1440px;
   position: absolute;
   width: 1440px;
   left: 0px;
@@ -977,8 +942,7 @@ ul.horizontal li{
 
 .overlap-group4 {
   align-items: center;
-  background-color: 
-#f2f2f2;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   min-height: 541px;
@@ -1126,7 +1090,7 @@ ul.horizontal li{
   min-width: 1440px;
   padding: 24px 486px;
   position: absolute;
-  width: 1445px;
+  width: 1440px;
   height: 90px;
   left: 0px;
   top: 2836px;
