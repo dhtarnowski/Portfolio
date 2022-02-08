@@ -215,7 +215,7 @@ ul.horizontal li{
     height: 600px;
     left: 0px;
     top: 1px;
-    linear-gradient(97.99deg, rgba(203, 21, 21, 0.45) 3.64%, rgba(14, 17, 88, 0.8) 108.12%);
+    background: linear-gradient(97.99deg, rgba(203, 21, 21, 0.45) 3.64%, rgba(14, 17, 88, 0.8) 108.12%);
 }
 
 /* Menu1 */
