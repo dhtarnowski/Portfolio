@@ -2,8 +2,9 @@
     position: sticky;
     height:2930px;
     width: 1440px;
-    background-image: url("/img/portfolio.svg");
-    }
+    background: radial-gradient(rgba(57, 12, 101, 0.6)  0.82%
+    rgba(210, 13, 25, 0.6) 100%);
+      }
   
   /*Lista desordnado*/
   ul.horizontal{
@@ -771,6 +772,7 @@
     margin-top: 9px;
     min-height: 421px;
     width: 990px;
+    
   }
   
   .proyectos-1 { /*posicion titulo*/
@@ -782,7 +784,7 @@
     position: absolute;
     width: 178px;
     left: 633px;
-    top: 1920px;
+    top: 1890px;
   }
   
   #font-proy{
@@ -928,16 +930,7 @@
     background: #F2F2F2;
   }
   
-  .overlap-group4 {
-    align-items: center;
-    background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    min-height: 541px;
-    padding: 36px 144px;
-    width: 1440px;
-  }
-  
+    
   .textos-habilidades {
     align-items: flex-start;
     align-self: flex-end;
