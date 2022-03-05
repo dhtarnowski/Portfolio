@@ -350,7 +350,7 @@
       height: 150px;
       left: 0px;
       top: 770px;
-      background: #FFFFFF;
+      background: #FAFBFF;
       border: 1px solid rgba(0, 0, 0, 0.6);
       box-sizing: border-box;
   }
@@ -361,11 +361,11 @@
       width: 156px;
       height: 20px;
       left: 647px;
-      top: 20px;
+      top: 5px;
       
       font-family: 'Open Sans';
-      font-style: normal;
-      font-weight: normal;
+      font-style: italic;
+      font-weight: bold;
       font-size: 32px;
       line-height: 63%;
       /* or 20px */
@@ -380,7 +380,7 @@
       width: 1056px;
       height: 29px;
       left: calc(50% - 1056px/2 + 2px);
-      top: 80px;
+      top: 60px;
       
       font-family: 'Roboto';
       font-style: italic;
