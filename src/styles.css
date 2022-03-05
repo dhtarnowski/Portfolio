@@ -46,15 +46,14 @@
       left: 45px; /*1290*/
       top: 12px;
   }
-  
-       
+         
   /* Login */
   .Login{
     position: absolute;
       width: 117px;
       height: 50px;
       left: 50px;
-      top: 5px;
+      top: 10px;
       text-align: center; 
       background: rgba(14, 17, 88, 0.8);
       border: 2px solid #FFFFFF;
@@ -462,7 +461,7 @@
       width: 200px;
       height: 54px;
       left: 616px;
-      top: -850px;
+      top: -890px;
   }    
   
   #txtSeccion{
