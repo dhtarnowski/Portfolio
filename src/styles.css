@@ -35,7 +35,7 @@
       width: 254px;
       height: 50px;
       left: 1153px;
-      top: 12px;
+      top: 0px;
   }
   
   /* boton login */
@@ -47,46 +47,38 @@
       top: 12px;
   }
   
-  /* btn login */
-  .btn_login{
-      position: absolute;
+       
+  /* Login */
+  .Login{
+    position: absolute;
       width: 117px;
       height: 50px;
       left: 50px;
-      top: -5px;
-      
+      top: 5px;
+      text-align: center; 
       background: rgba(14, 17, 88, 0.8);
       border: 2px solid #FFFFFF;
       box-sizing: border-box;
       border-radius: 2px;    
-  }
-  
-  /* Login */
-  .Login{
-      position: absolute;
-      width: 47px;
-      height: 31px;
-      left: -70px;
-      top: 12px;
-      
+              
       font-family: 'Taviraj', serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 20px;
       line-height: 31px;
       color: #FFFFFF;
   }
   
-  /* boton registro */
+  /* boton registro 
   .btn_registro{
       position: absolute;
       width: 117px;
       height: 50px;
-      left: 100px;/*1215*/
+      left: 100px;/*1215
       top: -5px;
-  }
+  }*/
   
-  /* Rectangle 5 */
+  /* Rectangle 5 
   .rectangulo_registro{
       position: absolute;
       width: 117px;
@@ -96,22 +88,22 @@
       background: #C4C4C4;
       border: 1px solid #FFFFFF;
       box-sizing: border-box;
-  }
+  }*/
   
-  /* Registrarse */
+  /* Registrarse 
   .txt_registro{
       position: absolute;
       width: 93px;
       height: 31px;
-      left: 15px; /*1165*/
-      top: 10px; /*22*/
+      left: 15px; /*1165
+      top: 10px; /*22
       font-family: 'Taviraj';
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
       line-height: 31px;
       color: #FFFFFF;
-   }
+   }*/
   
   /* Logo AP */
   .logo_AP{
@@ -138,7 +130,7 @@
       width: 123px;
       height: 25px;
       left: 182px;
-      top: 20px;
+      top: 5px;
       
       font-family: 'Open Sans', sans-serif;
       font-style: normal;
@@ -184,12 +176,12 @@
       border-radius: 0px;
   }
   
-  /* Acerca de */
+  /* Acerca de 
   .acerca-de {
     position: absolute;
     width: 1440px;
     height: 325px;
-  }
+  }*/
   
   #container-header{
     position: relative;
@@ -218,53 +210,50 @@
       background: linear-gradient(97.99deg, rgba(203, 21, 21, 0.45) 3.64%, rgba(14, 17, 88, 0.8) 108.12%);
   }
   
-  /* Menu1 */
+  /* Menu1 
   .menu1 {
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #C4C4C4;
     align-items: flex-start;
     display: flex;
     height: 38px;
-    min-width: 307px;
+    min-width: 400px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 325px;
+    width: 250px;
     height: 38px;
-    left: 800px;
+    left: 900px;
     top: 20px;
   }
   
   .trabajos {
     letter-spacing: 0;
-    margin-left: 40px;
+    margin-left: 50px;
     min-height: 38px;
-    width: 72px;
+    width: 74px;
   }
   
   .acerca-de-1 {
     letter-spacing: 0;
     min-height: 38px;
-    width: 90px;
+    width: 120px;
   }
   
   .contacto {
     letter-spacing: 0;
-    margin-left: 45px;
+    margin-left: 50px;
     min-height: 38px;
     width: 74px;
   }
-  
-  #font_menu1{
-      font-family: 'Open Sans';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 22px;
-  
-      color: #FFFFFF;
-  }
-  
+  */
+   
   /* Logo */
    .logo {
       height: 180px;
@@ -281,7 +270,7 @@
       height: 110px;
       left: 17px;
       position: absolute;
-      top: 35px;
+      top: 5px;
       width: 590px;
     }
     
@@ -290,11 +279,11 @@
       width: 535px;
       height: 68px;
       left: calc(50% - 543px/2 - 0.5px);
-      top: -5px;
+      top: -10px;
   
       font-family: 'Open Sans';
       font-style: normal;
-      font-weight: 300;
+      font-weight: 200;
       font-size: 48px;
       line-height: 68px;
   /* identical to box height */
@@ -307,12 +296,12 @@
       width: 586px;
       height: 34px;
       left: calc(50% - 586px/2);
-      top: 62px;
+      top: 85px;
   
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 300;
-      font-size: 20px;
+      font-size: 24px;
       line-height: 34px;
   /* identical to box height */
       text-align: center;
