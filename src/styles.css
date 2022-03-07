@@ -1,9 +1,10 @@
 .portfolio {
     position: sticky;
     height:2930px;
+    top: 0px;
+    left: 0px;
     width: 1440px;
-    background: radial-gradient(rgba(57, 12, 101, 0.6)  0.82%
-    rgba(210, 13, 25, 0.6) 100%);
+    background: url("https://i.ibb.co/jG4vpn7/fondo-fw.png");
       }
   
   /*Lista desordnado*/
@@ -771,7 +772,7 @@
     margin-left: 6px;
     margin-top: 9px;
     min-height: 421px;
-    width: 990px;
+    width: 1440px;
     
   }
   
@@ -917,13 +918,13 @@
   
   /*Skills*/
   .skills {
-    height: 500px;
-    min-width: 1440px;
+    height: 550px;
+    
     position: absolute;
-    width: 1440px;
+    width: 1400px;
     padding: 20px 20px;
-    left: 10px;
-    top: 2300px;
+    left: 0px;
+    top: 2400px;
     background: #F2F2F2;
   }
   
@@ -1067,21 +1068,29 @@
   
   /*Footer*/
   .footer {
-    align-items: flex-start;
-    background-color: var(--mist-gray);
+    align-items: center;
+    background-color: gray;
     display: flex;
     height: 100px;
     margin-top: 4px;
-    min-width: 1440px;
-    padding: 24px 486px;
+    padding: 20px;
     position: absolute;
-    width: 1440px;
+    width: 1400px;
     height: 90px;
     left: 0px;
     top: 2836px;
     background: #C4C4C4;
   }
   
+  .foottext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: left;
+    position: absolute;
+    right: 30px;
+  }
   .facebook-square{
     align-items: flex-start;
     align-self: center;
