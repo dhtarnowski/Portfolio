@@ -320,7 +320,15 @@
       box-sizing: border-box;
       border-radius: 10px;
     }
-    
+    .profesion{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 16pt;
+      font-style: oblique;
+      left: 900px;
+      top: 580px;
+      position: absolute;
+  }
+
   /* Foto perfil */
   .foto-perfil {
       position: absolute;
@@ -341,8 +349,7 @@
       left: 1200px;
       top: 610px;
   
-      background: url(/img/logochico.png);
-    }
+     }
   
   /* Seccion 2 */
   .seccion2{
@@ -376,7 +383,7 @@
      }
   
   /* Analista programador, master en marketing digital y community manager, profesor en inforática */
-  .textoAcerca{
+  .acerca{
       position: absolute;
       width: 1056px;
       height: 29px;
@@ -394,20 +401,14 @@
       color: #000000;    
   }
   
-  /* BTN Añadir */
-  .borde_btn{
-      position: absolute;
-      width: 140px;
-      height: 38px;
-      left: 37px;
-      top: -80px;    
-  }
+  /* BTN Añadir 
   
-  /* Boton */
+  /* Boton añadir seccion*/
   .btn_anadir{
-      position: absolute;
-      width: 140px;
-      height: 38px;
+    width: 140px;
+    height: 38px;
+    left: 37px;
+    top: -80px;
       
       background: linear-gradient(180deg, #538EDD 0%, #041935 100%);
       border: 1px solid #FAFBFF;
