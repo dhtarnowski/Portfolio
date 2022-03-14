@@ -407,9 +407,21 @@
   .btn_anadir{
     width: 140px;
     height: 38px;
-    left: 37px;
+    left: 80px;
     top: -80px;
-      
+    position: absolute;
+        
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+
       background: linear-gradient(180deg, #538EDD 0%, #041935 100%);
       border: 1px solid #FAFBFF;
       box-sizing: border-box;
@@ -417,25 +429,6 @@
       border-radius: 5px;
     }
   
-  /* Añadir Sección */
-  #txt_anadir{
-      position: absolute;
-      width: 110px;
-      height: 19px;
-      left: 17px;
-      top: 5px;
-      
-      font-family: 'Open Sans';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 19px;
-      /* identical to box height */
-      display: flex;
-      align-items: center;
-      
-      color: #FFFFFF;
-  }
   
   /* Body E/E */
   .body-ee {
@@ -458,15 +451,6 @@
       border: 1px solid rgba(0, 0, 0, 0.6);
       box-sizing: border-box;  
   }
-  /* Curriculum */
-  .Curriculum{
-      position: absolute;
-      width: 200px;
-      height: 54px;
-      left: 616px;
-      top: -890px;
-  }    
-  
   #txtSeccion{
       font-family: 'Open Sans';
       font-style: normal;
@@ -480,7 +464,7 @@
   }
   
   /* Experiencia */
-  #Experiencia_box{
+  .Experiencia_box{
       position: absolute;
       width: 874px;
       height: 359.99px;
@@ -489,7 +473,7 @@
   }
   
   /* Experiencia */
-  .Items-font{
+  #Items-font{
       font-family: 'Rubik';
       font-style: italic;
       font-weight: bold;
@@ -505,7 +489,7 @@
       width: 178px;
       height: 37.35px;
       left: 10px;
-      top: -1700px;
+      top: -1750px;
   }
   /* Logos */
   .logos {
@@ -744,6 +728,9 @@
       min-width: 80px;
     }
     
+    .btn-right{
+      margin-right: 100px;
+    }
     .btn-edit-1 {
       align-items: flex-start;
       display: flex;

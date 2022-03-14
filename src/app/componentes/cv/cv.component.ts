@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from './../../servicio/portfolio.service';
 
 @Component({
   selector: 'app-cv',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cv.component.css']
 })
 export class CvComponent implements OnInit {
+  experienciaList:any;
 
-  constructor() { }
+  constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data =>{
+      this.experienciaList=data.experiencia;
+    })
   }
 
 }

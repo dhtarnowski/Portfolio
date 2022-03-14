@@ -13,7 +13,62 @@
         "img": "https://i.ibb.co/30P2bC8/logochico.png",
         "url": "https://dhtservicios.blogspot.com"
          },
-    "acerca": "Analista programador, master en marketing digital y community manager, profesor en informática capacitador."
+    "acerca": "Analista programador, master en marketing digital y community manager, profesor en informática capacitador.",
+    "experiencia" : [{
+        "cargo": "Profesor de informática y Formación Profesional",
+        "entidad": "ISJPII",
+        "img": "http://www.fundacionvillacabello.org/images/headers/juan-pablo-II.png",
+        "desde": "Abril 2013",
+        "hasta": "actuliadad",
+        "timeElapsed": "8 años",
+        "localidad:": "Puerto Rico Misiones",
+        "modo": "11 horas"
+      },
+      {
+        "cargo": "Desarrollador Páginas Web con Wordpress y Analitica Web",
+        "entidad": "INNDERA Empresa de carpintería",
+        "img": "https://i.ibb.co/mSnMP11/LOGO-fw.png",
+        "desde": "Noviembre 2018",
+        "hasta": "Diciembre 2019",
+        "timeElapsed": "1 año",
+        "localidad:": "Puerto Rico Misiones",
+        "modo": "part-time"
+      }  
+      ],
+      "educacion": [{
+          "carrera": "Máster en Marketing Digital y Community Manager y Social Media",
+          "instituo": "Neetwork Business School",
+          "img": "https://neetwork.com/wp-content/uploads/2020/04/Logo1024x1024_N.png",
+          "estado": "Completo Finalizado",
+          "desde": "Noviembre 2018",
+          "hasta": "Noviembre 2019",
+          "timeElapsed": "1 año",
+          "modo": "Virtual On line",
+          "lugar": ""
+      },
+      {
+          "carrera": "Ing En Sistemas de Información",
+          "instituo": "UTN CBA",
+          "img": "http://www.frc.utn.edu.ar/prensa/pub/image/Logo%20UTN%20Azul.jpg",
+          "estado": "incompleto",
+          "desde": "Marzo 2003",
+          "hasta": "Noviembre 2008",
+          "timeElapsed": "5 año",
+          "modo": "Presencial",
+          "lugar": "Córdoba Argentina"
+      },
+      {
+          "carrera": "Analista Programador",
+          "instituo": "IAES",
+          "img": "https://i.ibb.co/V3v9Zmg/iaes.jpg",
+          "estado": "Completo",
+          "desde": "Marzo 2000",
+          "hasta": "Septiembre 2002",
+          "timeElapsed": "2 años",
+          "modo": "Presencial",
+          "lugar": "Puerto Rico, Misiones Argentina"
+      }
+    ]
 }
 
     
