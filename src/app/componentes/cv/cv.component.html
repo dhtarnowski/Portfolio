@@ -15,7 +15,7 @@
                                 <img 
                                     class="isjpii" 
                                     [src]="experiencia.img" 
-                                    alt="isjpii" 
+                                   
                                 />
                             </div>
                             <div class="font-items" id="profesor-de-informt">
@@ -24,6 +24,41 @@
                                     <p>{{experiencia.entidad}} -<span>{{experiencia.modo}}</span></p>
                                     <H4><time>{{experiencia.desde}}</time> - <time>{{experiencia.hasta}}</time>  - {{experiencia.timeElapsed}}</H4>
                                     <h4>{{experiencia.localidad}}</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="data-control">
+                        <div class="btn-edit">
+                            <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="educ-box"> <!--debe ser el mismo box de experienci-->
+            <div id="Educacion">
+                <h2 id="Items-font" >Educacion</h2>
+                    <div class="btn-edit">
+                        <a href="#" class="btn-right"><i class="fa fa-plus"></i></a>
+                    </div>
+            </div>
+            <ul class="">
+                <li *ngFor="let educacion of educacionList">
+                    <div class="logos">
+                        <a href="#">
+                            <div class="logo-img">
+                                <img 
+                                    class="isjpii" 
+                                    [src]="educacion.img" 
+                                /><!--debe ser generico la clase no isjpii-->
+                            </div>
+                            <div class="font-items" id="profesor-de-informt">
+                                <div>
+                                    <h3 class="bold">{{educacion.carrera}}</h3>
+                                    <p>{{educacion.instituto}}<span>- {{educacion.modo}}</span></p>
+                                    <H4><time>{{educacion.desde}}</time> - <time>{{educacion.hasta}}</time>  - {{educacion.timeElapsed}}</H4>
+                                    <h4>{{educacion.lugar}}</h4>
                                 </div>
                             </div>
                         </a>
@@ -63,13 +98,4 @@
                 </div>
             </div>
         </div>-->
-        <!--<div class="botones-edit">
-            <a href="#">&#x270E;</a>
-            <a href="#">&#x270E;</a><a href="#">&#x2421;
-            <a href="#">&#x270E;</a><a href="#">&#x2421;</a>
-            <a href="#">&#x270E;</a><a href="#">&#x2421;</a>
-            <a href="#">&#x270E;</a><a href="#">&#x2421;</a>
-            <a href="#">&#x270E;</a><a href="#">&#x2421;</a>
-            <a class="fuente-btn" id="agregar-1" href="#">+</a>
-            <a class="fuente-btn" id="agregar-2" href="#">+</a>-->
         

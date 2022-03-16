@@ -37,7 +37,7 @@
       ],
       "educacion": [{
           "carrera": "Máster en Marketing Digital y Community Manager y Social Media",
-          "instituo": "Neetwork Business School",
+          "instituto": "Neetwork Business School",
           "img": "https://neetwork.com/wp-content/uploads/2020/04/Logo1024x1024_N.png",
           "estado": "Completo Finalizado",
           "desde": "Noviembre 2018",
@@ -48,7 +48,7 @@
       },
       {
           "carrera": "Ing En Sistemas de Información",
-          "instituo": "UTN CBA",
+          "instituto": "UTN CBA",
           "img": "http://www.frc.utn.edu.ar/prensa/pub/image/Logo%20UTN%20Azul.jpg",
           "estado": "incompleto",
           "desde": "Marzo 2003",
@@ -59,7 +59,7 @@
       },
       {
           "carrera": "Analista Programador",
-          "instituo": "IAES",
+          "instituto": "IAES",
           "img": "https://i.ibb.co/V3v9Zmg/iaes.jpg",
           "estado": "Completo",
           "desde": "Marzo 2000",
@@ -68,6 +68,10 @@
           "modo": "Presencial",
           "lugar": "Puerto Rico, Misiones Argentina"
       }
+    ],
+    "aptitudes": [{
+      
+    }
     ]
 }
 
